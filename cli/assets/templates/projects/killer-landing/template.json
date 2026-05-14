@@ -1,0 +1,32 @@
+{
+  "name": "killer-landing",
+  "title": "Killer Landing — Motion-3D",
+  "description": "Production-ready Next.js 16 landing page with R3F, Remotion, Framer Motion, and ui-ux-pro-max design system baked in.",
+  "version": "1.0.0",
+  "stack": {
+    "framework": "next@latest",
+    "language": "typescript",
+    "styling": "tailwindcss",
+    "router": "app"
+  },
+  "dependencies": {
+    "framer-motion": "^12",
+    "three": "*",
+    "@react-three/fiber": "^9",
+    "@react-three/drei": "^10",
+    "@react-three/postprocessing": "^3",
+    "postprocessing": "^6",
+    "@remotion/player": "^4",
+    "@remotion/cli": "^4",
+    "lucide-react": "*",
+    "lenis": "^1"
+  },
+  "devDependencies": {
+    "@types/three": "*"
+  },
+  "designSystemBrief": "saas premium ai motion-rich dark cinematic 3d hero",
+  "postInstall": [
+    "uipro init --offline",
+    "python3 design-system --persist -p \"{{projectName}}\""
+  ]
+}
