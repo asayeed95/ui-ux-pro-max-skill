@@ -42,18 +42,16 @@
 
 ## Tweet 3 (solution)
 
-> v2.6 introduces the verb interface:
+> v2.6: eight verbs. Intent in. Checklist out.
 >
-> uipro audit <path>     — UX/quality audit
-> uipro polish <path>    — final pass
-> uipro critique <topic> — design review
-> uipro redesign <topic> — full redesign
-> uipro harden <path>    — error/empty/loading
-> uipro lint <path>      — anti-pattern scan
-> uipro generate <mode>  — Higgsfield assets
-> uipro brandkit         — 3-image kit
->
-> Intent in. Checklist out.
+> audit    — UX blockers
+> polish   — refinement pass
+> critique — design review
+> redesign — full redesign
+> harden   — edge cases
+> lint     — no LLM, CI-ready
+> generate — Higgsfield assets
+> brandkit — 3-image kit
 
 **Attach:** verb table screenshot from rendered README.
 
@@ -81,7 +79,7 @@
 > 161 color palettes
 > 57 type pairings
 > 99 UX rules
-> 12 framework stacks
+> 16 framework stacks
 > 18 AI coding environments
 >
 > You're not stacking another design library on Claude.
@@ -98,21 +96,17 @@
 > → ui-ux-pro-max (78.5K ★) wins depth + breadth
 >
 > v2.6 closes the ergonomics gap and adds the deterministic checker.
->
-> The UI quality layer for AI coding agents — now in one command.
+> One command. Every agent.
 
 ---
 
 ## Tweet 7 (CTA)
 
-> Install in any project:
+> npx uipro-cli init
 >
->   npx uipro-cli init
+> Works in all 18 environments: Claude Code, Cursor, Copilot, Codex, Gemini CLI, Cline, Continue, Droid, KiloCode, Kiro, OpenCode, Qoder, RooCode, Trae, Warp, Windsurf, Augment, Agent.
 >
-> Star + review the PR while it's hot:
-> github.com/nextlevelbuilder/ui-ux-pro-max-skill/pull/307
->
-> Works in: Claude Code, Cursor, Copilot, Codex, Gemini CLI, Cline, Continue, Droid, KiloCode, Kiro, OpenCode, Qoder, RooCode, Trae, Warp, Windsurf, Augment.
+> Star the PR → github.com/nextlevelbuilder/ui-ux-pro-max-skill/pull/307
 >
 > One tool. Every agent. No slop.
 

@@ -59,7 +59,7 @@ uipro lint src/ --severity High
 ## Compatibility
 
 - **Platforms** (18): Claude Code, Cursor, Copilot, Codex, Gemini CLI, Cline, Continue, Droid, KiloCode, Kiro, OpenCode, Qoder, RooCode, Trae, Warp, Windsurf, Augment, Agent
-- **Stacks** (12): React, Next.js, Vue, Svelte, Astro, Nuxt, Nuxt UI, SwiftUI, React Native, Flutter, Tailwind, shadcn/ui, Jetpack Compose, Three.js, Angular, Laravel
+- **Stacks** (16): React, Next.js, Vue, Svelte, Astro, Nuxt, Nuxt UI, SwiftUI, React Native, Flutter, Tailwind, shadcn/ui, Jetpack Compose, Three.js, Angular, Laravel
 - **Python** ≥ 3.8 required for the engine
 
 ## No breaking changes

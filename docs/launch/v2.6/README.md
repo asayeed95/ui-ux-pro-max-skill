@@ -29,7 +29,7 @@ Do **not** fire the X thread until:
 
 | When | What |
 |------|------|
-| **T-0** (PR review lands or CI green) | Fire X thread (Tweet 1–7 in single session, ~5 min between each) |
+| **T-0** (PR review lands or CI green) | Fire X thread (Tweet 1–7 in single session, 30–60 sec apart) |
 | **T+15 min** | Cross-post Tweet 1 (with thread link) to LinkedIn, Reddit r/ClaudeAI, Reddit r/cursor |
 | **T+1 hour** | Publish GitHub release v2.6.0 using `release-notes.md` |
 | **T+2 hours** | Post the 60-second demo as a standalone tweet quoting Tweet 1 |

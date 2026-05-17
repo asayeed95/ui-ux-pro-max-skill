@@ -19,7 +19,7 @@
 | **0:28–0:36** | Caption: **`uipro audit landing`** | _"`uipro audit` pulls real UX rules from a seventy-eight-thousand-star knowledge base. Severity sorted."_ | Terminal: audit output scrolls, highlight `[High] Focus States`, `[High] Touch Target Size` |
 | **0:36–0:44** | Caption: **`uipro generate hero --prompt "..."`** | _"`uipro generate` pipes through Higgsfield. Brand-grade hero assets in one command."_ | Terminal command typed → cut to the rendered hero image landing in `public/assets/generated/hero.png` |
 | **0:44–0:52** | Before/after split: AI-slop page (left) → clean page (right). | _"Same agent. Same prompt. One command of QA in between."_ | Animated swipe reveal |
-| **0:52–0:60** | End card: **"The UI quality layer for AI coding agents."** Below: `npx uipro-cli init` · v2.6.0 · GitHub URL | _"Install in any project: `npx uipro-cli init`. ui-ux-pro-max v2.6 — out now."_ | Logo + install command + URL |
+| **0:52–1:00** | End card: **"The UI quality layer for AI coding agents."** Below: `npx uipro-cli init` · v2.6.0 · GitHub URL | _"Install in any project: `npx uipro-cli init`. ui-ux-pro-max v2.6 — out now."_ | Logo + install command + URL |
 
 ---
 
@@ -37,9 +37,9 @@
 
 | Length | What to drop | Use case |
 |---|---|---|
-| **30s** | Audit shot + before/after split | Vertical Reels / Shorts; lint + generate carry the proof |
-| **45s** | Audit shot only | TikTok mid-length |
-| **60s** | All shots | YouTube Shorts / X video / LinkedIn |
+| **44s** | Audit shot (8s) + before/after split (8s) | Vertical Reels / Shorts; lint + generate carry the proof |
+| **52s** | Audit shot (8s) only | TikTok mid-length |
+| **60s** | Nothing (keep all) | YouTube Shorts / X video / LinkedIn |
 
 ## 9:16 vertical recompose
 
@@ -53,9 +53,9 @@ Same beats, but:
 | Platform | Length | Aspect | Caption |
 |---|---|---|---|
 | X | 60s | 16:9 | Tweet thread Tweet 1 hook + video |
-| Instagram Reels | 30s | 9:16 | Lift Tweet 1 + 4 + 7 as captions |
+| Instagram Reels | 44s | 9:16 | Lift Tweet 1 + 4 + 7 as captions |
 | YouTube Shorts | 60s | 9:16 | Full caption from x-thread.md tweet 1 |
-| TikTok | 45s | 9:16 | Lead with "AI slop is a setup problem, not a Claude problem" |
+| TikTok | 52s | 9:16 | Lead with "AI slop is a setup problem, not a Claude problem" |
 | LinkedIn | 60s | 16:9 | Cross-post the full LinkedIn write-up from x-thread.md |
 
 ## What NOT to include in the demo
