@@ -25,7 +25,13 @@ python3 src/ui-ux-pro-max/scripts/search.py "<query>" --domain <domain> [-n <max
 ```bash
 python3 src/ui-ux-pro-max/scripts/search.py "<query>" --stack <stack>
 ```
-Available stacks: `html-tailwind` (default), `react`, `nextjs`, `astro`, `vue`, `nuxtjs`, `nuxt-ui`, `svelte`, `swiftui`, `react-native`, `flutter`, `shadcn`, `jetpack-compose`
+Available stacks (16): `html-tailwind` (default), `react`, `nextjs`, `astro`, `vue`, `nuxtjs`, `nuxt-ui`, `svelte`, `swiftui`, `react-native`, `flutter`, `shadcn`, `jetpack-compose`, `angular`, `laravel`, `threejs`
+
+**Design system generation:**
+```bash
+python3 src/ui-ux-pro-max/scripts/search.py "<brief>" --design-system [--persist -p "<Project>"]
+```
+`--persist` writes `design-system/MASTER.md` + per-page files into the consumer project.
 
 ## Architecture
 
@@ -44,7 +50,7 @@ src/ui-ux-pro-max/                # Source of Truth
 
 cli/                              # CLI installer (uipro-cli on npm)
 ├── src/
-│   ├── commands/init.ts          # Install command with template generation
+│   ├── commands/                 # init, update, uninstall, versions
 │   └── utils/template.ts         # Template rendering engine
 └── assets/                       # Bundled assets (~564KB)
     ├── data/                     # Copy of src/ui-ux-pro-max/data/
@@ -52,8 +58,6 @@ cli/                              # CLI installer (uipro-cli on npm)
     └── templates/                # Copy of src/ui-ux-pro-max/templates/
 
 .claude/skills/ui-ux-pro-max/     # Claude Code skill (symlinks to src/)
-.factory/skills/ui-ux-pro-max/   # Droid (Factory) skill (symlinks to src/)
-.shared/ui-ux-pro-max/            # Symlink to src/ui-ux-pro-max/
 .claude-plugin/                   # Claude Marketplace publishing
 ```
 
@@ -68,7 +72,7 @@ When modifying files:
 1. **Data & Scripts** - Edit in `src/ui-ux-pro-max/`:
    - `data/*.csv` and `data/stacks/*.csv`
    - `scripts/*.py`
-   - Changes automatically available via symlinks in `.claude/`, `.factory/`, `.shared/`
+   - Changes automatically available via symlinks in `.claude/skills/`
 
 2. **Templates** - Edit in `src/ui-ux-pro-max/templates/`:
    - `base/skill-content.md` - Common SKILL.md content
